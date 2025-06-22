@@ -1,0 +1,120 @@
+
+/* ====== 全局设置 ====== */
+body {
+  font-family: Arial, sans-serif; /* 设置通用字体 */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* 背景浅灰色 */
+  color: #333; /* 字体颜色为深灰色 */
+}
+
+/* ====== 页眉样式 ====== */
+header {
+  background-color: #336699; /* 页眉背景为蓝色 */
+  color: white; /* 字体为白色 */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0; /* 去除标题边距 */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* 去除下划线 */
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* 设置悬停动画 */
+}
+
+nav a:hover {
+  background-color: #224466; /* 鼠标悬停时背景变暗 */
+}
+
+/* ====== 主体内容样式 ====== */
+main {
+  padding: 20px;
+  max-width: 900px; /* 设置最大宽度 */
+  margin: 0 auto; /* 居中显示 */
+  background-color: white; /* 白色背景块 */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 添加阴影 */
+  border-radius: 8px; /* 圆角 */
+}
+
+section img {
+  display: block;
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px; /* 图片圆角 */
+}
+
+/* ====== 页脚样式 ====== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #336699;
+  color: white;
+  position: relative;
+  bottom: 0;
+  margin-top: 30px;
+}
+
+/* ====== 表格样式 ====== */
+table {
+  width: 100%;
+  border-collapse: collapse; /* 合并边框 */
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #eeeeee;
+}
+
+/* ====== 表单样式 ====== */
+form {
+  display: flex;
+  flex-direction: column; /* 垂直排列 */
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box; /* 包含内边距与边框 */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #336699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #224466;
+}
